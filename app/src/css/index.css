@@ -1,0 +1,10 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/MACBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
