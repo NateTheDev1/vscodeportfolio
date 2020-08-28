@@ -8,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { updatePage } from "../services/actions";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import "../css/Projects.css";
 
 const FileWindow = () => {
   const page = useSelector((state) => state.page);

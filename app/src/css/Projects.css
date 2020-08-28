@@ -1,5 +1,6 @@
 .pj-root {
   display: flex;
+  width: 75%;
 }
 
 .pg-content {
@@ -7,7 +8,7 @@
 }
 
 .project {
-  width: 50%;
+  width: 75%;
   margin-bottom: 3%;
   background: #1f282f;
   padding: 2%;
