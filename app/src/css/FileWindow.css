@@ -41,3 +41,9 @@
 .fw-header.active p {
   opacity: 1;
 }
+
+.fw-content {
+  overflow: scroll;
+  width: 100%;
+  height: 95%;
+}

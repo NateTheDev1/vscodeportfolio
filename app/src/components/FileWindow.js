@@ -5,6 +5,7 @@ import htmlIcon from "../images/html_ico.svg";
 import cssIcon from "../images/css_ico.svg";
 import { useSelector, useDispatch } from "react-redux";
 import { updatePage } from "../services/actions";
+import About from "./pages/About";
 
 const FileWindow = () => {
   const page = useSelector((state) => state.page);
@@ -39,7 +40,7 @@ const FileWindow = () => {
           <p>contact.css</p>
         </button>
       </div>
-      <div className="fw-content"></div>
+      <div className="fw-content">{page === "about.md" && <About />}</div>
     </div>
   );
 };

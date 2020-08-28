@@ -14,3 +14,24 @@ body {
   font-family: "Fira Code", monospace;
   font-weight: 400;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: none;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

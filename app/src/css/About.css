@@ -1,0 +1,27 @@
+.ab-root {
+  display: flex;
+}
+
+.ab-content {
+  padding: 2%;
+  text-align: center;
+}
+
+.ab-content h2 {
+  font-size: 2rem;
+}
+
+.ab-content h3 {
+  color: #d19a66;
+  text-transform: uppercase;
+}
+
+.ab-content p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+.ab-content img {
+  width: 200px;
+  border-radius: 50%;
+}
