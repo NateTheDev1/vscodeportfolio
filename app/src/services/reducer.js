@@ -2,7 +2,7 @@ import { UPDATE_PAGE, LOADING } from "./types";
 
 const initialState = {
   loading: false,
-  page: "projects.html",
+  page: "about.md",
 };
 
 export const reducer = (state = initialState, action) => {
