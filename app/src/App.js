@@ -3,7 +3,7 @@ import ApplicationWindow from "./components/ApplicationWindow";
 
 const App = () => {
   return (
-    <div>
+    <div className="app-root">
       <ApplicationWindow />
     </div>
   );

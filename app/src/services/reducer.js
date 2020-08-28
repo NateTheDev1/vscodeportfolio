@@ -1,4 +1,4 @@
-import LOADING, { UPDATE_PAGE } from "./types";
+import { UPDATE_PAGE, LOADING } from "./types";
 
 const initialState = {
   loading: false,
