@@ -1,0 +1,48 @@
+.pj-root {
+  display: flex;
+}
+
+.pg-content {
+  padding: 1%;
+}
+
+.project {
+  width: 50%;
+  margin-bottom: 3%;
+  background: #1f282f;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.project .image-container {
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project h2 {
+  font-weight: 300;
+}
+
+.project h3 {
+  text-transform: uppercase;
+}
+
+.project p {
+  line-height: 2;
+}
+
+.project .links {
+  display: flex;
+}
+
+.links a {
+  font-size: 1.2rem;
+  margin-right: 5%;
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}

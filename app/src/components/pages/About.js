@@ -5,10 +5,11 @@ import "../../css/About.css";
 const About = () => {
   return (
     <div className="ab-root">
-      <CodeBar rowAmount={30} />
+      <CodeBar rowAmount={25} />
       <div className="ab-content">
         <h2>Nathaniel Richards</h2>
         <h3>Software Engineer</h3>
+
         <img src="https://pbs.twimg.com/profile_images/1287753863244783616/h4bkH9ds_400x400.jpg" />
         <p>
           I am more than a web developer. I am an engineer that is passionate

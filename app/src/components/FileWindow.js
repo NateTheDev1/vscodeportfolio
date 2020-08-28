@@ -3,9 +3,11 @@ import "../css/FileWindow.css";
 import mdIcon from "../images/markdown_ico.svg";
 import htmlIcon from "../images/html_ico.svg";
 import cssIcon from "../images/css_ico.svg";
+import jsIcon from "../images/js_ico.svg";
 import { useSelector, useDispatch } from "react-redux";
 import { updatePage } from "../services/actions";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 const FileWindow = () => {
   const page = useSelector((state) => state.page);
@@ -39,8 +41,18 @@ const FileWindow = () => {
           <img src={cssIcon} alt="css" />
           <p>contact.css</p>
         </button>
+        <button
+          className={`fw-header ${page === "skills.js" && "active"}`}
+          onClick={() => handleChange("skills.js")}
+        >
+          <img src={jsIcon} alt="js" />
+          <p>skills.js</p>
+        </button>
       </div>
-      <div className="fw-content">{page === "about.md" && <About />}</div>
+      <div className="fw-content">
+        {page === "about.md" && <About />}
+        {page === "projects.html" && <Projects />}
+      </div>
     </div>
   );
 };
