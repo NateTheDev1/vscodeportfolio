@@ -49,5 +49,6 @@
 }
 
 .middle {
-  height: 90%;
+  height: 93%;
+  display: flex;
 }

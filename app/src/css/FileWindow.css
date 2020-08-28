@@ -1,0 +1,43 @@
+.fw-root {
+  width: 95%;
+  height: 100%;
+}
+
+.fw-toolbar {
+  width: 100%;
+  display: flex;
+}
+
+.fw-header {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  border: none;
+  outline: none;
+  padding-left: 1%;
+  background: none;
+  align-items: center;
+}
+
+.fw-header:hover {
+  cursor: pointer;
+}
+
+.fw-header.active {
+  border-bottom: 2px solid #00aced;
+  background: #1f282f;
+}
+
+.fw-header img {
+  margin-right: 10px;
+}
+
+.fw-header p {
+  font-size: 0.8rem;
+  opacity: 0.3;
+  color: white;
+}
+
+.fw-header.active p {
+  opacity: 1;
+}
