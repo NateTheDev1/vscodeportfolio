@@ -8,4 +8,18 @@ import "./css/index.css";
 // Root App
 import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// Redux
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+
+// Reducer
+import { reducer } from "./services/reducer";
+
+const store = createStore(reducer);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

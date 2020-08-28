@@ -8,3 +8,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+body {
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+}

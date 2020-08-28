@@ -1,9 +1,10 @@
 import React from "react";
+import ApplicationWindow from "./components/ApplicationWindow";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <ApplicationWindow />
     </div>
   );
 };

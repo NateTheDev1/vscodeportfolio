@@ -1,0 +1,48 @@
+.aw_root {
+  width: 85vw;
+  height: 80vh;
+  background: #222b33;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.aw_root .status-bar {
+  background: #1d252b;
+  padding: 0.5%;
+  height: 25px;
+  width: 100%;
+}
+
+.status-bar-inner {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+
+.status-bar .icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.status-bar .icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.status-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
