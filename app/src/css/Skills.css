@@ -1,0 +1,37 @@
+.sk-root {
+  display: flex;
+}
+
+.sk-content .purp {
+  color: #c792ea;
+}
+
+.sk-content .green {
+  color: #61ef97;
+}
+
+.sk-content .orange {
+  color: #e6b422;
+}
+
+.sk-content .red {
+  color: #ff444a;
+}
+
+.sk-content .bracket {
+  color: #c88f63;
+}
+
+.sk-content .blu {
+  color: #7695d7;
+}
+
+.sk-content li {
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+.sk-content p {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
