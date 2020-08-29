@@ -6,7 +6,7 @@ const CodeBar = (props) => {
     let rows = [];
 
     for (let i = 0; i <= props.rowAmount; i++) {
-      rows.push(<p>{i}</p>);
+      rows.push(<p key={i}>{i}</p>);
     }
     return rows;
   };

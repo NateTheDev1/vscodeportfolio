@@ -1,0 +1,33 @@
+.ct-root {
+  display: flex;
+}
+
+.comments {
+  margin-bottom: 5%;
+}
+
+.comments .comment {
+  color: #666;
+}
+
+.selector {
+  color: #f8b84d;
+}
+
+.bracket {
+  color: #6cc4b2;
+}
+
+.css-line {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 300;
+  padding-left: 3%;
+}
+.css-value {
+  color: #ea8146;
+}
+
+.css-value a {
+  color: #ea8146;
+}

@@ -1,6 +1,6 @@
 .pj-root {
   display: flex;
-  width: 75%;
+  width: 90%;
 }
 
 .pg-content {
@@ -8,7 +8,7 @@
 }
 
 .project {
-  width: 75%;
+  width: 100%;
   margin-bottom: 3%;
   background: #1f282f;
   padding: 2%;
@@ -26,6 +26,7 @@
 
 .project h2 {
   font-weight: 300;
+  color: #f7a940;
 }
 
 .project h3 {
@@ -44,6 +45,6 @@
   font-size: 1.2rem;
   margin-right: 5%;
   text-decoration: none;
-  color: white;
+  color: #f7a940;
   text-decoration: underline;
 }
