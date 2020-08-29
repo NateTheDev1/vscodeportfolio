@@ -2,12 +2,14 @@ import React from "react";
 import "../css/HomeScreen.css";
 import appleLogo from "../images/apple-logo.svg";
 import { useSelector, useDispatch } from "react-redux";
-import { openCoder } from "../services/actions";
+import { openCoder, openTerminal } from "../services/actions";
 
 import vsIcon from "../images/vcode-ico.svg";
+import termIcon from "../images/terminal-ico.svg";
 
 const HomeScreen = () => {
   const open = useSelector((state) => state.open);
+
   const dispatch = useDispatch();
 
   return (
@@ -31,6 +33,10 @@ const HomeScreen = () => {
         >
           <img src={vsIcon} alt="portfolio" />
           <span className="app-btn-title">Portfolio Code</span>
+        </button>
+        <button className="app-btn" onClick={() => dispatch(openTerminal())}>
+          <img src={termIcon} alt="terminal" />
+          <span className="app-btn-title">Terminal</span>
         </button>
       </div>
     </div>

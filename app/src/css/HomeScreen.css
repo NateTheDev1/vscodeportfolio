@@ -43,11 +43,13 @@
 .app-menu {
   margin-top: 3%;
   padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-btn {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   background: transparent;
   border: none;
   outline: none;
@@ -56,6 +58,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .app-btn-title {
