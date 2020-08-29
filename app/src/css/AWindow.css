@@ -56,11 +56,7 @@
 @media (max-width: 975px) {
   .aw_root {
     width: 100vw !important;
-    height: 100vh !important;
-    position: unset;
-    top: 0%;
-    left: 0%;
-    transform: unset;
+    height: 90vh !important;
   }
 }
 
