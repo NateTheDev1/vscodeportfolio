@@ -50,7 +50,7 @@ const TWindow = () => {
           angular: "What do I Think?",
           javascriptninja: false,
         }}
-        msg="You have found my terminal..."
+        msg="You have found my terminal...type help for options"
       />
     </motion.div>
   );
