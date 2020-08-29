@@ -61,10 +61,6 @@
 }
 
 @media (max-width: 575px) {
-  .aw_root {
-    height: 90vh !important;
-  }
-
   .middle {
     flex-direction: column;
     align-items: center;
