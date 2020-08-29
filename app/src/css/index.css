@@ -35,3 +35,6 @@ body {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+@media (max-width: 575px) {
+}
