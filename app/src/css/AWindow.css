@@ -55,8 +55,8 @@
 
 @media (max-width: 975px) {
   .aw_root {
-    width: 95vw !important;
-    height: 70vh !important;
+    width: 100vw !important;
+    height: 100vh !important;
   }
 }
 
