@@ -1,6 +1,7 @@
 import React from "react";
 import CodeBar from "../CodeBar";
 import "../../css/About.css";
+import resume from "../../images/cur_resume.pdf";
 
 const About = () => {
   return (
@@ -20,6 +21,9 @@ const About = () => {
           and programs since I was 14 and have a strong passion to create high
           quality applications.
         </p>
+        <a href={resume} alt="resume" className="resume">
+          Resume
+        </a>
       </div>
     </div>
   );
