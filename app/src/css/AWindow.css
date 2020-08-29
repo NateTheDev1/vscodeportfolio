@@ -57,6 +57,10 @@
   .aw_root {
     width: 100vw !important;
     height: 100vh !important;
+    position: unset;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
