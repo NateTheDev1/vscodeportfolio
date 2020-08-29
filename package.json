@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/NateTheDev1/vscodeportfolio#readme",
   "dependencies": {
+    "framer-motion": "^2.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-github-calendar": "^2.0.1",

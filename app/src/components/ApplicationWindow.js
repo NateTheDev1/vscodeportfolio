@@ -3,16 +3,29 @@ import "../css/AWindow.css";
 import StatusBar from "./StatusBar";
 import Sidebar from "./Sidebar";
 import FileWindow from "./FileWindow";
+import { motion } from "framer-motion";
+import { useSelector } from "react-redux";
 
 const ApplicationWindow = () => {
+  const open = useSelector((state) => state.open);
+
   return (
-    <div className="aw_root">
+    <motion.div
+      className="aw_root"
+      key={open}
+      transition={{ ease: "easeIn", duration: 0.3 }}
+      animate={{
+        width: ["0vw", "85vw"],
+        height: ["0vh", "80vh"],
+        opacity: [0, 1],
+      }}
+    >
       <StatusBar />
       <div className="middle">
         <Sidebar />
         <FileWindow />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
