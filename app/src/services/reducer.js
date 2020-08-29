@@ -10,7 +10,7 @@ import {
 const initialState = {
   loading: false,
   page: "about.md",
-  open: false,
+  open: true,
   terminalOpen: false,
 };
 

@@ -52,3 +52,31 @@
   height: 93%;
   display: flex;
 }
+
+@media (max-width: 975px) {
+  .aw_root {
+    width: 95vw !important;
+    height: 90vh !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .aw_root {
+    height: 98vh !important;
+  }
+
+  .middle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle {
+    overflow: scroll;
+    height: 99%;
+  }
+
+  .status-bar-inner {
+    width: 100%;
+    padding: 2%;
+  }
+}

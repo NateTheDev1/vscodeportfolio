@@ -17,7 +17,6 @@ const ApplicationWindow = () => {
       animate={{
         width: ["0vw", "85vw"],
         height: ["0vh", "80vh"],
-        opacity: [0, 1],
       }}
     >
       <StatusBar />

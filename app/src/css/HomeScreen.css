@@ -84,3 +84,19 @@
   cursor: unset;
   opacity: 0.5 !important;
 }
+
+@media (max-width: 975px) {
+  .toolbar p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 644px) {
+  .toolbar p {
+    display: none;
+  }
+
+  .title {
+    display: unset !important;
+  }
+}

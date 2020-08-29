@@ -50,3 +50,9 @@
   width: 100%;
   height: 95%;
 }
+
+@media (max-width: 1140px) {
+  .fw-header {
+    width: 25%;
+  }
+}

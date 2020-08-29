@@ -48,3 +48,10 @@
   color: #f7a940;
   text-decoration: underline;
 }
+
+@media (max-width: 575px) {
+  .pj-root {
+    width: 100%;
+    justify-content: center;
+  }
+}
