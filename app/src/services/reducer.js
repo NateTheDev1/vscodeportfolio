@@ -11,7 +11,7 @@ const initialState = {
   loading: false,
   page: "about.md",
   open: false,
-  terminalOpen: true,
+  terminalOpen: false,
 };
 
 export const reducer = (state = initialState, action) => {

@@ -2,12 +2,19 @@ import React from "react";
 import Terminal from "terminal-in-react";
 import { useDispatch } from "react-redux";
 import { closeTerminal } from "../services/actions";
+import { motion } from "framer-motion";
 
 const TWindow = () => {
   const dispatch = useDispatch();
 
   return (
-    <div
+    <motion.div
+      transition={{ ease: "easeIn", duration: 0.3 }}
+      animate={{
+        width: ["0vw", "85vw"],
+        height: ["0vh", "80vh"],
+        opacity: [0, 1],
+      }}
       style={{
         position: "fixed",
 
@@ -31,14 +38,21 @@ const TWindow = () => {
         barColor="#F8F8F8"
         commands={{
           showmsg: () => console.log("hello"),
+          blog: () => "https://medium.com/@NateTheWebDev",
+          angular: () => "Oh boy....we won't talk about this",
+          javascriptninja: () =>
+            "83VFHW3JD - Message me this code on any social media and I will congratulate you for finding this!",
         }}
         descriptions={{
           show: false,
           showmsg: "shows a message",
+          blog: "reveals my blog link",
+          angular: "What do I Think?",
+          javascriptninja: false,
         }}
         msg="You have found my terminal..."
       />
-    </div>
+    </motion.div>
   );
 };
 

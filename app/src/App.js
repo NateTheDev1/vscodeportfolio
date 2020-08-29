@@ -17,7 +17,11 @@ const App = () => {
           <ApplicationWindow />
         </AnimatePresence>
       )}
-      {terminalOpen && <Terminal />}
+      {terminalOpen && (
+        <AnimatePresence>
+          <Terminal />
+        </AnimatePresence>
+      )}
     </div>
   );
 };
