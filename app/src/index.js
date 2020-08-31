@@ -19,8 +19,6 @@ import thunk from "redux-thunk";
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
-window.scrollTo(0, 1);
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
