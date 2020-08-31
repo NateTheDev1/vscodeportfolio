@@ -5,7 +5,7 @@ import "../../css/Skills.css";
 const Skills = () => {
   return (
     <div className="sk-root">
-      <CodeBar rowAmount={50} />
+      <CodeBar rowAmount={80} />
       <div className="sk-content">
         <p>
           {" "}

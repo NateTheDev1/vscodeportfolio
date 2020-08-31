@@ -5,7 +5,7 @@ import "../../css/Projects.css";
 const Projects = () => {
   return (
     <div className="pj-root">
-      <CodeBar rowAmount={250} />
+      <CodeBar rowAmount={120} />
       <div className="pg-content">
         <h1>Packages</h1>
         <div className="project">

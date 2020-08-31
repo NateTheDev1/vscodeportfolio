@@ -54,4 +54,20 @@
     width: 100%;
     justify-content: center;
   }
+
+  .project p {
+    font-size: 0.7rem;
+  }
+
+  .project h2 {
+    font-size: 0.8rem;
+  }
+
+  .project h3 {
+    font-size: 0.7rem;
+  }
+
+  .project a {
+    font-size: 0.7rem;
+  }
 }

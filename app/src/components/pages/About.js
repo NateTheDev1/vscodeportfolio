@@ -6,7 +6,7 @@ import resume from "../../images/cur_resume.pdf";
 const About = () => {
   return (
     <div className="ab-root">
-      <CodeBar rowAmount={25} />
+      <CodeBar rowAmount={35} />
       <div className="ab-content">
         <h2>Nathaniel Richards</h2>
         <h3>Software Engineer</h3>
