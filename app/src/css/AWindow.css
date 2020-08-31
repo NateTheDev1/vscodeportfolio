@@ -68,11 +68,15 @@
 
   .middle {
     overflow: scroll;
-    height: 99%;
+    height: 100%;
   }
 
   .status-bar-inner {
     width: 100%;
     padding: 2%;
+  }
+
+  .aw-root {
+    padding-top: 3%;
   }
 }

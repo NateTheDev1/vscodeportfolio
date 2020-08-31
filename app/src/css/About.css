@@ -38,4 +38,7 @@
 }
 
 @media (max-width: 575px) {
+  .ab-content p {
+    font-size: 0.7rem;
+  }
 }
