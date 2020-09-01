@@ -29,6 +29,7 @@
   "homepage": "https://github.com/NateTheDev1/vscodeportfolio#readme",
   "dependencies": {
     "framer-motion": "^2.6.5",
+    "gulp": "^4.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-github-calendar": "^2.0.1",
@@ -54,6 +55,7 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "url-loader": "^4.1.0"
   }
 }
