@@ -17,12 +17,24 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif|svg|pdf)$/i,
+        test: /\.(jpe?g|gif|svg|pdf)$/i,
         use: [
           {
             loader: "file-loader",
           },
         ],
+      },
+      {
+        test: /\.(ico|json|txt)$/i,
+        use: [
+          {
+            loader: "url-loader",
+          },
+        ],
+      },
+      {
+        test: /\.png$/,
+        use: [{ loader: "url-loader" }],
       },
     ],
   },
