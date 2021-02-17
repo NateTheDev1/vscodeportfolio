@@ -2,11 +2,71 @@ import React from "react";
 import CodeBar from "../CodeBar";
 import "../../css/Projects.css";
 
+//https://gyazo.com/9675bebd442ae2b62aaf387370560403
 const Projects = () => {
   return (
     <div className="pj-root">
       <CodeBar rowAmount={120} />
       <div className="pg-content">
+        <h1>Proffessional Work</h1>
+        <div className="project">
+          <h2>BIGGBY COFFEE</h2>
+          <div className="image-container">
+            <img
+              src="https://i.gyazo.com/bde4573ef15dd19e33f8905c05939f97.jpg"
+              alt=""
+            />
+          </div>
+          <h3>Overview</h3>
+          <hr />
+          <p>
+            Working at BIGGBY COFFEE I work on all aspects of technology. From
+            ecommerce web projects, to the point of sale systems used by
+            hundreds of stores across the United States everyday. In these
+            projects I have worked on the server side, the frontend, quality
+            assurance, and more. More information is available upon request.
+          </p>
+
+          <h3>Technologies</h3>
+          <hr />
+          <p>
+            React, Apollo Client, Apollo Server, MySQL, Express, Node,
+            Typescript, Bootstrap, Stripe, C++, QTCreator
+          </p>
+          <div className="links">
+            <a href="https://biggby.com" target="__blank">
+              BIGGBY Home Site
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <h2>Untangled Cables (Freelance) </h2>
+          <div className="image-container">
+            <img
+              src="https://i.gyazo.com/33af81377252c4440803c7ea75b4e536.png"
+              alt=""
+            />
+          </div>
+          <h3>Overview</h3>
+          <hr />
+          <p>
+            An online shop built for a client selling mouse and keyboard cables.
+            It uses stripe for customer data and payments. It also has a fully
+            functioning CMS and Admin Dashboard.
+          </p>
+
+          <h3>Technologies</h3>
+          <hr />
+          <p>
+            React, Apollo Client, Apollo Server, MySQL, Express, Node,
+            Typescript, Material-UI, CSS, Stripe
+          </p>
+          <div className="links">
+            <a href="https://untangledcables.com" target="__blank">
+              Live Demo
+            </a>
+          </div>
+        </div>
         <h1>Packages</h1>
         <div className="project">
           <h2>bootcamp-ui</h2>

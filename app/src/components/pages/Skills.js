@@ -45,6 +45,8 @@ const Skills = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>LESS</li>
+            <li>SCSS</li>
+            <li>C++</li>
           </ul>
           <p style={{ paddingLeft: "8%" }}>
             <span className="red">{`</p>`}</span>
@@ -60,12 +62,16 @@ const Skills = () => {
             <li>ReactJS</li>
             <li>Redux</li>
             <li>Context</li>
+            <li>RecoilJS</li>
             <li>React Native</li>
             <li>MaterialUI</li>
             <li>Bootstrap & Reactstrap</li>
             <li>Materialize</li>
             <li>Styled-Components</li>
             <li>Apollo Client</li>
+            <li>Electron</li>
+            <li>QT Creator</li>
+            <li>QML</li>
           </ul>
           <p style={{ paddingLeft: "8%" }}>
             <span className="red">{`</p>`}</span>
@@ -82,6 +88,7 @@ const Skills = () => {
             <li>Express</li>
             <li>PostgreSQL</li>
             <li>SQLite</li>
+            <li>MySQL</li>
             <li>GraphQL</li>
             <li>Apollo Server</li>
             <li>MongoDB</li>
@@ -103,10 +110,12 @@ const Skills = () => {
             <li>Jest</li>
             <li>supertest</li>
             <li>Enzyme</li>
+            <li>apollo-server-testing</li>
           </ul>
           <p style={{ paddingLeft: "8%" }}>
             <span className="red">{`</p>`}</span>
           </p>
+          <span className="orange"> )</span>
         </div>
       </div>
     </div>
