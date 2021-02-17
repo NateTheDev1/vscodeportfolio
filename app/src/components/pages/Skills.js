@@ -41,7 +41,9 @@ const Skills = () => {
             <span className="red">{`<p>`}</span>
           </p>
           <ul style={{ paddingLeft: "20%" }}>
+            <li>Advanced Typescript</li>
             <li>JavaScript</li>
+            <li>Git And Repo Management</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>LESS</li>
