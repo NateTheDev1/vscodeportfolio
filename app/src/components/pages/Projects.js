@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="pj-root">
       <CodeBar rowAmount={120} />
       <div className="pg-content">
-        <h1>Proffessional Work</h1>
+        <h1>Professional Work</h1>
         <div className="project">
           <h2>BIGGBY COFFEE</h2>
           <div className="image-container">
