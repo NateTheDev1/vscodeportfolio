@@ -20,10 +20,7 @@ const Contact = () => {
             <span className="bracket">{`{`}</span>
           </p>
           <p className="css-line">
-            email:{" "}
-            <span className="css-value">
-              nathaniel-richards@lambdastudents.com
-            </span>
+            email: <span className="css-value">nthnlrichards@gmail.com</span>
             <span className="bracket">;</span>
           </p>
           <p className="css-line">
