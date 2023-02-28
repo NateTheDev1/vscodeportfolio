@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/NateTheDev1/vscodeportfolio#readme",
   "dependencies": {
+    "chokidar": "^3.5.3",
     "framer-motion": "^2.6.5",
     "gulp": "^4.0.2",
     "react": "^16.13.1",

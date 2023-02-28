@@ -41,14 +41,17 @@ const Skills = () => {
             <span className="red">{`<p>`}</span>
           </p>
           <ul style={{ paddingLeft: "20%" }}>
-            <li>Advanced Typescript</li>
+            <li>Typescript</li>
             <li>JavaScript</li>
+            <li>NodeJS</li>
             <li>Git And Repo Management</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>LESS</li>
-            <li>SCSS</li>
-            <li>C++</li>
+            <li>HTML, CSS</li>
+            <li>PostgreSQL, MySQL, SQLite3</li>
+            <li>SCSS, SASS, LESS</li>
+            <li>C++, QT Creator (Desktop Applications)</li>
+            <li>Rust</li>
+            <li>C#</li>
+            <li>Unreal Engine, Unity Engine</li>
           </ul>
           <p style={{ paddingLeft: "8%" }}>
             <span className="red">{`</p>`}</span>
@@ -72,7 +75,6 @@ const Skills = () => {
             <li>Styled-Components</li>
             <li>Apollo Client</li>
             <li>Electron</li>
-            <li>QT Creator</li>
             <li>QML</li>
           </ul>
           <p style={{ paddingLeft: "8%" }}>

@@ -10,6 +10,52 @@ const Projects = () => {
       <div className="pg-content">
         <h1>Professional Work</h1>
         <div className="project">
+          <h2>Clockwork Labs</h2>
+          <div className="image-container">
+            <img
+              src="https://i.gyazo.com/af4dc3ab0c69741de3dae92c3341e02c.jpg"
+              alt=""
+            />
+          </div>
+          <h3>Overview</h3>
+          <hr />
+          <p>
+            My first game studio. Worked on building a cloud system from the
+            ground up and was a sole developer on a sister dashboard for the
+            product. Also worked on other areas of interest including backend
+            development and worked with marketing to create public facing sites
+            for the company.
+          </p>
+          <h3>Technologies</h3>
+          <hr />
+          <p>Rust, NextJS, React</p>
+          <div className="links">
+            <a href="https://bitcraftonline.com/" target="__blank">
+              Core Product Link
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <h2>MHVillage</h2>
+          <div className="image-container">
+            <img
+              src="https://i.gyazo.com/1245700394f9aed34749e66f4e0e2141.png"
+              alt=""
+            />
+          </div>
+          <h3>Overview</h3>
+          <hr />
+          <p>Worked on maintaining a large scale Angular / PHP application.</p>
+          <h3>Technologies</h3>
+          <hr />
+          <p>PHP, Angular, Devops</p>
+          <div className="links">
+            <a href="https://www.mhvillage.com/" target="__blank">
+              MHVillage Home Site
+            </a>
+          </div>
+        </div>
+        <div className="project">
           <h2>BIGGBY COFFEE</h2>
           <div className="image-container">
             <img

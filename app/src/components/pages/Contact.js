@@ -23,15 +23,7 @@ const Contact = () => {
             email: <span className="css-value">nthnlrichards@gmail.com</span>
             <span className="bracket">;</span>
           </p>
-          <p className="css-line">
-            sourcerio:{" "}
-            <span className="css-value">
-              <a href="https://sourcerer.io/natethedev1" target="__blank">
-                https://sourcerer.io/natethedev1
-              </a>
-            </span>
-            <span className="bracket">;</span>
-          </p>
+
           <p className="css-line">
             github:{" "}
             <span className="css-value">
@@ -63,7 +55,7 @@ const Contact = () => {
             <span className="bracket">;</span>
           </p>
           <p className="css-line">
-            location: <span className="css-value">{`"Muskegon, Mi"`}</span>
+            location: <span className="css-value">{`"Muskegon, MI"`}</span>
             <span className="bracket">;</span>
           </p>
           <span className="bracket">{`}`}</span>

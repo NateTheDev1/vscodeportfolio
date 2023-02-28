@@ -11,7 +11,7 @@ const About = () => {
         <h2>Nathaniel Richards</h2>
         <h3>Software Engineer</h3>
 
-        <img src="https://pbs.twimg.com/profile_images/1311533078318321664/KIy4S9w6_400x400.jpg" />
+        <img src="https://media.licdn.com/dms/image/C5603AQGgOQczP1qPfA/profile-displayphoto-shrink_800_800/0/1660347472189?e=1683158400&v=beta&t=h1_P5_TBncnnedY4iV_hDRGgo8Fy2ZZu-bPqg7uy-jw" />
         <p>
           I am more than a web developer. I am an engineer that is passionate
           about designing, developing, and shipping production quality
